@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Luis Gustavo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sass
+  C:\Program Files\nodejs\node.exe C:\Users\Luis Gustavo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add socket.io-client
 
 PATH: 
   C:\Users\Luis Gustavo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Luis Gustavo\bin;C:\Users\Luis Gustavo\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.12_7\bin;C:\Users\Luis Gustavo\AppData\Local\Android\Sdk\emulato;.;C:\Users\Luis Gustavo\AppData\Local\Android\Sdk\tool;.;C:\Users\Luis Gustavo\AppData\Local\Android\Sdk\tools\bi;.;C:\Users\Luis Gustavo\AppData\Local\Android\Sdk\platform-tool;.;C:\Users\Luis Gustavo\AppData\Local\Yar;.;C:\Users\Luis Gustavo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Luis Gustavo\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Luis Gustavo\AppData\Local\Programs\Python\Python310;C:\Users\Luis Gustavo\AppData\Local\Microsoft\WindowsApps;C:\Users\Luis Gustavo\AppData\Local\GitHubDesktop\bin;C:\Users\Luis Gustavo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Luis Gustavo\AppData\Roaming\npm;C:\Users\Luis Gustavo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -27,12 +27,16 @@ npm manifest:
       "serve": "vite preview"
     },
     "dependencies": {
+      "axios": "^0.23.0",
       "react": "^17.0.0",
-      "react-dom": "^17.0.0"
+      "react-dom": "^17.0.0",
+      "react-icons": "^4.3.1",
+      "sass": "^1.43.2"
     },
     "devDependencies": {
       "@types/react": "^17.0.0",
       "@types/react-dom": "^17.0.0",
+      "@types/react-icons": "^3.0.0",
       "@vitejs/plugin-react": "^1.0.0",
       "typescript": "^4.3.2",
       "vite": "^2.6.4"
